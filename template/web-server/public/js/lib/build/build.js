@@ -1705,7 +1705,7 @@ require.register("boot/index.js", function(exports, require, module){
   var protocol = require('pomelo-protocol');
   window.Protocol = protocol;
 
-  var protobuf = require('pomelo-protobuf');
+  var protobuf = require('pomelo-protobuf-new');
   window.protobuf = protobuf;
 
   var pomelo = require('pomelo-jsclient-websocket');
